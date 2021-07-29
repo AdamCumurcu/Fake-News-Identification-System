@@ -1,0 +1,8 @@
+Fake.csv
+True.csv
+pickled_files/*
+.ipynb_checkpoints/*
+Capstone-NLTK-Version.ipynb
+Capstone-NLTK-Version-2.ipynb
+Capstone-NLTK-Visualizations.ipynb
+Capstone-Spacy-Version.ipynb

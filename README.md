@@ -1,6 +1,6 @@
 # Fake-News-Identification-System
 
-![fake news image](images/pexels-markus-winkler-4072688.jpg width="200" height="250")
+![pinochio fake news boy](images/ey-boy-holding-newspaper.jpg)
 
 ### Business Case
 
@@ -51,10 +51,10 @@ Fake Articles
 The frequency distribution tables looked at unigrams, bi-grams and tri-grams.
 
 Real Article Unigrams
-![real article unigrams](images/true_unigram.png width="200" height="250")
+![real article unigrams](images/true_unigram.png =250x250)
 
 Fake Article Unigrams
-![fake article unigrams](images/fake_unigram.png width="200" height="250")
+![fake article unigrams](images/fake_unigram.png =250x250)
 
 
 Former President trump was at the top of the list int he frequency distribution tables for both the real and fake articles.
@@ -68,5 +68,3 @@ I used Logistic Regression, Multinomial Naive Bayes, a Random Forest Classifier 
 For Logistic Regression and Multinomial Naive Bayes, I used both simple pipelines and pipelines combined with gridsearch to generate the best results.
 
 I achieved my best results with Logistic Regression combined with Gridsearch. This model had very low variance but the bias appears to be high, indicating that perhaps the model needs to be trained on a wider variety of articles, spanning a longer period of time.
-
-![pinochio fake news boy](images/ey-boy-holding-newspaper.jpg)

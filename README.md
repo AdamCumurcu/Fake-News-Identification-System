@@ -1,6 +1,6 @@
 # Fake-News-Identification-System
 
-![fake news image](images/pexels-markus-winkler-4072688.jpg =250x250)
+![fake news image](images/pexels-markus-winkler-4072688.jpg width="200" height="250")
 
 ### Business Case
 
@@ -51,10 +51,10 @@ Fake Articles
 The frequency distribution tables looked at unigrams, bi-grams and tri-grams.
 
 Real Article Unigrams
-![real article unigrams](images/true_unigram.png)
+![real article unigrams](images/true_unigram.png width="200" height="250")
 
 Fake Article Unigrams
-![fake article unigrams](images/fake_unigram.png)
+![fake article unigrams](images/fake_unigram.png width="200" height="250")
 
 
 Former President trump was at the top of the list int he frequency distribution tables for both the real and fake articles.

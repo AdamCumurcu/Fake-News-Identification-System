@@ -51,11 +51,9 @@ Fake Articles
 The frequency distribution tables looked at unigrams, bi-grams and tri-grams.
 
 Real Article Unigrams
-![real article unigrams](images/true_unigram.png =250x250)
 <img src="images/true_unigram.png" width="500" height="370">
 
 Fake Article Unigrams
-![fake article unigrams](images/fake_unigram.png =250x250)
 <img src="images/fake_unigram.png" width="500" height="370">
 
 

@@ -2,15 +2,17 @@
 
 ![pinochio fake news boy](images/ey-boy-holding-newspaper.jpg)
 
+### Project Overview
+
+The goal of this project is to create a fake new identification system using natural language processing (NLP). My data set consists of over 40 thousand articles obtained from Kaggle. A variety of machine learning models have been used to generate the best results.
+
 ### Business Case
 
-Fake News has been on the rise this past decade.
+Over the course of the past decade, the amount of fake news being shared on social media has seen a dramatic increase. According to NewsGuard, "in 2019, 8 percent of engagement with the 100 top-performing news sources on social media was dubious. In 2020, that number more than doubled to 17 percent" ([Vox](https://www.vox.com/policy-and-politics/2020/12/22/22195488/fake-news-social-media-2020)). In 2021, the Daily Wire, the outlet founded by right-wing comentator Ben Shapiro, was the most popular news platform on Facebook.
 
-The spread of fake news has been having clear negative effects. From denying the results of the 2020 presidential election to spreading misinformation about the COVID vaccine, fake news is causing real damage to our society.
+From casting doubts on the results of the 2020 presidential election to spreading misinformation about the COVID vaccine, fake news is causing real damage to our society.
 
-One of the main sources of fake news is social media, such as Facebook and Twitter.
-
-I set out to produce a fake news identification system that can be used by social media companies to filter out minsinformation.
+Because the main source of fake news is social media sites, such as Facebook and Twitter, I set out to produce a fake news identification system that can be used by social media companies to filter out minsinformation. A altnerative use of this system could be a web app with which users can verify the authenticity of a story themselves.
 
 ### The Repo
 

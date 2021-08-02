@@ -42,18 +42,22 @@ In addition to SpaCy, I used NLTK to perform my exploratory data analysis.
 
 I used word clouds and frequency distribution tables to analyze the text from the real and fake articles.
 
-Real Articles
+Real Articles:
+
 ![real news wordcloud](images/true_wordcloud.png)
 
-Fake Articles
+Fake Articles:
+
 ![fake news wordcloud](images/fake_wordcloud.png)
 
 The frequency distribution tables looked at unigrams, bi-grams and tri-grams.
 
-Real Article Unigrams
+Real Article Unigrams:
+
 <img src="images/true_unigram.png" width="500" height="370">
 
-Fake Article Unigrams
+Fake Article Unigrams:
+
 <img src="images/fake_unigram.png" width="500" height="370">
 
 

@@ -1,6 +1,6 @@
 # Fake-News-Identification-System
 
-![fake news image](images/pexels-markus-winkler-4072688.jpg | width=100)
+![fake news image](images/pexels-markus-winkler-4072688.jpg =250x250)
 
 ### Business Case
 

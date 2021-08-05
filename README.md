@@ -54,13 +54,13 @@ Fake Articles:
 
 The frequency distribution tables looked at unigrams, bi-grams and tri-grams.
 
-Real Article Unigrams:
+Real Article Trigrams:
 
-<img src="images/true_unigram.png" width="500" height="370">
+<img src="images/sns_true_trigram.png" width="500" height="370">
 
-Fake Article Unigrams:
+Fake Article Trigrams:
 
-<img src="images/fake_unigram.png" width="500" height="370">
+<img src="images/sns_fake_trigram.png" width="500" height="370">
 
 
 Former President trump was at the top of the list int he frequency distribution tables for both the real and fake articles.

@@ -16,7 +16,7 @@ Because the main source of fake news is social media sites, such as Facebook and
 
 ### The Repo
 
-All of the data cleaning, exploratory analysis and modeling can be found in the 'Capstone-Final-Version' notebook. Each section of the notebook is labelled.
+All of the data cleaning, exploratory analysis and modeling can be found in the 'Capstone-Final-Version' notebook. Each section of the notebook is labelled. In addition to this, the code for a web app using Streamlit can be found in the 'webapp.py' notebook.
 
 ### The Data
 

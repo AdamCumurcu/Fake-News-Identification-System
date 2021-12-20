@@ -15,7 +15,7 @@ def load_prediction_models(model_file):
     loaded_models = joblib.load(open(os.path.join(model_file),"rb"))
     return loaded_models
 
-st.title("Fake News Classifier ML App")
+st.title("Fake News Classifier Machine Learning App")
 st.subheader("NLP and ML App with Streamlit")
 
 def main():
@@ -28,7 +28,7 @@ def main():
     #choice = st.sidebar.selectbox("Choose Activity", activities)
     
    # if choice == 'Prediction':
-st.info("Prediction with ML")
+st.info("Paste an Article Below to Find out Whether or Not it is Real or Fake")
         
 news_text = st.text_area("Enter Text", "Type Here")
         
@@ -42,7 +42,7 @@ if st.button("Classify"):
         predictor = load_prediction_models("pickled_files/streamlit_lr_model.pickle")
         raw_predictions = predictor.predict_proba(vect_text)[0][0]
         predictions = str(predictor.predict_proba(vect_text)[0][0])
-        class_predictions = np.where(raw_predictions > .8, 'Fake', 'Real') 
+        class_predictions = np.where(raw_predictions > .65, 'Fake', 'Real') 
         st.write(str(class_predictions))
     if model_choice == 'NB':
         predictor = load_prediction_models("pickled_files/streamlit_nb_model.pickle")
